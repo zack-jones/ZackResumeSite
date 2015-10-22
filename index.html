@@ -1,108 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> </title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--<script src="js/"></script> -->
-    </head>
-    <body>
-        <!-- Build your site content here -->
-		<div class="nav">
-			<div class="centered"><h1>Zack Jones</h1></div>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Zachary Jones</title>
+
+		<!-- Fonts and icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- JavaScript + JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="scripts/scroll.js"></script>
+	</head>
+	<body>
+	<!-- Build your site content here -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Zachary Jones</a>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hi there,</h1>
+				<p>I am an aspiring Software Developer at the University of Hartford expected to graduate in May 2016. In addition to 
+					majoring in computer science I'm also a member of the University's Division I Lacrosse Program.</p>
+				<p><a class="btn btn-primary btn-lg" href="#myCarousel" role="button">Learn more »</a></p>
+			</div>
 		</div>
-		<div class="grid">
-			<div class="education" id="education">
-				<div class="col-1-4"><img src="ic_account_balance_white_48px.svg" class="icon"/></div>
-				<div class="col-3-4">
-					<div class="col-2-3">
-						<h1>EDUCATION</h1>
-						<h2 class="highlight">University of Hartford</h2>
-						<h3 class="highlight"><i>Candidate for Bachelor of Science, Computer Science</i></h3>
-						<ul>
-							<li>GPA 3.37</li>
-							<li>Recipient of  NASA Connecticut Space Grant Consortium Undergraduate Campus Scholarship</li>
-							<li>Repeat recipient of Sabionski Scholarship for excellence in computer science</li>
-							<li>Scholarship athlete on the Division I Men's Lacrosse team</li>
-						</ul>
+		<div class="container intro">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Education</h2>
+					<i class="material-icons">account_balance</i>
+					<p><strong>B.S. Computer Science</strong>, Expected: May 2016</p>
+					<p><strong>GPA</strong> 3.37</p>
+					<p><strong>Recipient of</strong> NASA Connecticut Space Grant Consortium Undergraduate Campus Scholarship</p>
+					<p><strong>Repeat recipient</strong> of Sabionski Scholarship for excellence in computer science</p>
+				</div>
+				<div class="col-md-4 side-borders">
+					<h2>Experience</h2>
+					<i class="material-icons">work</i>
+					<h4>Voya Investment Management</h4>
+					<p>Digital Marketing Developer Intern June 2015-August 2015</p>
+					<h4>Synchronoss Technologies</h4>
+					<p>Research and Development Intern May 2014-August 2014</p>
+					<p><a class="btn btn-default" href="#experience" role="button">View details »</a><p>
+				</div>
+				<div class="col-md-4">
+					<h2>Skills</h2>
+					<i class="material-icons">computer</i>
+					<p><strong>Advanced:</strong> Java, HTML & CSS, JavaScript</p>
+					<p><strong>Proficient:</strong> Swift</p>
+					<p><strong>Relevant Courses:</strong> Internet Programming, Web Services, Computer Networks</p>
+				</div>
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators to switch between images -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img class="first-slide img-rounded" src="images/zipline.jpeg" alt="First slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Zipline Adventure Course</h1>
+							<p>This tree top course was full of difficult obstacles that really pushed our comfort zone. The various
+								beams would shake as you walked across them which really tested our balance.</p>
+						</div>
 					</div>
-					<div class="col-1-3">
-						<br /><br />
-						<h2 class="highlight">West Hartford, CT</h2>
-						<h3 class="highlight"><i>Expected: May 2016</i></h3>
+				</div>
+				<div class="item">
+					<img class="second-slide img-rounded" src="images/surf.jpeg" alt="Second slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Surfing Lavalette, NJ</h1>
+							<p>I spend as much time as I can visiting my friends beach house and surfing in the summer.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img class="third-slide img-rounded" src="images/cabo.jpeg" alt="Third slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Cabo San Lucas</h1>
+							<p>This past summer my family took a trip to Cabo that was absolutely beautiful. The water was pure blue
+								filled with all sorts of fish that I saw while paddle boarding and snorkeling.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="skills" id="skills">
-				<div class="col-3-4">
-					<div class="col-1-2">
-						<h1>SKILLS</h1>
-						<h2 class="highlight">Programming Languages</h2>
-						<h3><span class="highlight">Advanced:</span> Java, HTML, CSS, Javascript</h3>
-						<h3><span class="highlight">Proficient:</span>  Swift</h3>
-						<h3><span class="highlight">Prior Experience:</span> Lisp, Mips</h3>
-					</div>
-					<div class="col-1-2">
-						<br /><br />
-						<h2 class="highlight">Relevant Coursework</h2>
-						<ul>
-							<li>Computer Networks</li>
-							<li>Web Services</li>
-							<li>Internet Programming</li>
-							<li>Software Development </li>
-						</ul>
-					</div>
+		</div>
+		<hr class="featurette-divider">
+		<div class="row featurette experience">
+			<div class="col-md-7" id="experience">
+				<h2 class="featurette-heading">Voya Investment Management, <span class="text-muted">Digital Marketing Developer Intern June 2015-August 2015</span></h2>
+				<p class="lead">Designed and coded the company's website style guide using HTML & CSS (styleguide.investments.voya.com)</p>
+				<p class="lead">Lead developer for one of the company's micro sites where I utilized premade and custom templates to build out the different pages</p>
+				<p class="lead">Fixed various bugs in the main website dealing with cookies, user access to different sections of the site, and content errors</p>
+			</div>
+			<div class="col-md-5">
+				<img class="featurette-image img-responsive center-block" src="images/voya.jpg" alt="Generic placeholder image">
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		<div class="row featurette experience">
+			<div class="col-md-7 col-md-push-5">
+ 				<h2 class="featurette-heading">Synchronoss Technologies, <span class="text-muted">Research and Development Intern May 2014-August 2014</span></h2>
+				<p class="lead">Assisted in the development of Integrated Voice Response software for major telephone and cable companies</p>
+				<p class="lead">Extensive efforts in testing and debugging errors through simulated phone calls and test cases</p>
+				<p class="lead">Reported and resolved bugs discovered during testing of the Integrated Voice Response Software</p>
+				<p class="lead">Led a presentation that gave an overview of my work during the internship to various employees</p>
+			</div>
+			<div class="col-md-5 col-md-pull-7">
+				<img class="featurette-image img-responsive center-block" src="images/synchronoss.png" alt="Generic placeholder image">
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2"><h1>Feel free to reach me on...</h1></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="https://github.com/zack-jones" class="thumbnail">
+						<img src="images/github.png" alt="github">
+					</a>
 				</div>
-				<div class="col-1-4"><img src="ic_laptop_mac_white_48px.svg" class="icon"/></div>
-			</div>
-			<div class="experience" id="experience">
-				<div class="col-1-4"><img src="ic_work_white_48px.svg" class="icon"/></div>
-				<div class="col-3-4">
-					<div class="col-1-2">
-						<h1>EXPERIENCE</h1>
-						<h2 class="highlight">Voya Investment Management</h2>
-						<h3 class="highlight"><i>Digital Marketing Developer Intern</i></h3>
-						<ul>
-							<li>Designed and coded the company's website style guide using HTML & CSS (styleguide.investments.voya.com)</li>
-							<li>Lead developer for one of the company's micro sites where I utilized premade and custom templates to build out the different pages</li>
-							<li>Fixed various bugs in the main website dealing with cookies, user access to different sections of the site, and content errors</li>
-						</ul>
-					</div>
-					<div class="col-1-2">
-						<br /><br />
-						<h2 class="highlight">Synchronoss Technologies</h2>
-						<h3 class="highlight"><i>Research and Development Intern</i></h3>
-						<ul>
-							<li>Assisted in the development of Integrated Voice Response software for major telephone and cable companies</li>
-							<li>Extensive efforts in testing and debugging errors through simulated phone calls and test cases</li>
-							<li>Reported and resolved bugs discovered during testing of the Integrated Voice Response Software</li>
-							<li>Led a presentation that gave an overview of my work during the internship to various employees</li>
-						</ul>
-					</div>
+				<div class="col-md-4">
+					<a href="https://www.linkedin.com/in/zjoneshartford" class="thumbnail">
+						<img src="images/linkedin.jpg" alt="linkedin">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="mailto:zacksjones8@gmail.com" class="thumbnail">
+						<img src="images/email.jpg" alt="email">
+					</a>
 				</div>
 			</div>
-			<div class="community" id="community">
-				<div class="col-3-4">
-					<div class="col-1-2">
-						<h1>COMMUNITY</h1>
-						<h2 class="highlight">Handfuls of Hope</h2>
-						<h3 class="highlight"><i>Jeffrey Project Medical Clinic</i></h3>
-						<ul>
-							<li>Organized fundraising efforts for a medical clinic located in Catalina, Dominican Republic. Funds were disbursed between medical supplies and employing a part-time doctor and staff</li>
-							<li>Major contributions towards the construction of the clinic</li>
-						</ul>
-					</div>
-					<div class="col-1-2">
-						<br><br><br><br>	
-						<h3 class="highlight"><i>Water Filter Project</i></h3>
-						<ul>
-							<li>Demonstrated and distributed Sawyer pointOne water filters to villages without clean water; the filter provides 500 gallons of clean water per day.	</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-1-4"><img src="ic_thumb_up_white_48px.svg" class="icon"/></div>
-			</div>
-			</div>
-    </body>
+		</div>
+		<footer class="footer">
+
+		</footer>
+	</body>
 </html>
