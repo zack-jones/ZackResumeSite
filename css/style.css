@@ -4,14 +4,13 @@ body {
   padding-bottom: 20px;
 }
 
+/* Defaults
+-------------------------------------------------*/
 .navbar {
 	background-color: #0288D1;
 }
 .navbar-brand {
 	color: #FFFFFF !important;
-}
-.intro {
-	text-align: center;
 }
 .side-borders {
 	border-left: 1px solid #212121;
@@ -22,6 +21,8 @@ body {
 
 /* Carousel base class */
 .carousel {
+  margin-left: 25%;
+  width: 50%;
   height: 500px;
   margin-bottom: 60px;
 }
@@ -33,7 +34,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #eee;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -43,9 +44,11 @@ body {
   height: 500px;
 }
 
-/* 
-
+/* Helper Classes
 --------------------------------------------------*/
 .experience {
 	text-align: center;
+}
+.intro {
+  text-align: center;
 }
