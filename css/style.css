@@ -26,16 +26,18 @@ body {
   height: 500px;
   margin-bottom: 60px;
 }
-/* Since positioning the image, we need to help out the caption */
+/* Adjusts caption location because of image positioning */
 .carousel-caption {
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* heights to match image heights */
 .carousel .item {
   height: 500px;
   background-color: #eee;
 }
+/*Only Accesses imgage that is the child of the item class that 
+is a child of the carousel-inner class*/
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
