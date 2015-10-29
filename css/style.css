@@ -25,24 +25,20 @@ body {
   height: 500px;
   margin-bottom: 60px;
 }
-/* brings caption to front so not behind image */
 .carousel-caption {
   z-index: 10;
 }
-
-/* heights to match image heights */
 .carousel .item {
   height: 500px;
   background-color: #eee;
 }
-/*Only Accesses imgage that is the child of the item class that 
-is a child of the carousel-inner class*/
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 100%;
+  height: 500px;
 }
 
 /* Helper Classes
