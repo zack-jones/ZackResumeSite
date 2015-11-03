@@ -3,13 +3,6 @@
 -------------------------------------------------*/
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 200;
-}
-.navbar {
-	background-color: #0288D1;
-}
-.navbar-brand {
-	color: #FFFFFF !important;
 }
 .side-borders {
 	border-left: 1px solid #212121;
@@ -46,7 +39,11 @@ body {
   height: 500px;
   background-color: #eee;
 }
-
+.carousel-inner {
+  -moz-box-shadow:    2px 2px 8px 3px #333;
+  -webkit-box-shadow: 2px 2px 8px 3px #333;
+  box-shadow:         2px 2px 8px 3px #333;
+}
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
