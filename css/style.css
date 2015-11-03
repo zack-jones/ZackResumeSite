@@ -1,11 +1,10 @@
-/*Allows space for fixed navbar*/
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
 
 /* Defaults
 -------------------------------------------------*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
 .navbar {
 	background-color: #0288D1;
 }
@@ -15,6 +14,21 @@ body {
 .side-borders {
 	border-left: 1px solid #212121;
 	border-right: 1px solid #212121;
+}
+.jumbotron {
+  background-color: #387ADF;
+  color: #FFFFFF;
+}
+.jumbotron h1{
+  color: #FBA834;
+}
+.jumbotron img {
+  -moz-box-shadow:    2px 2px 8px 3px #333;
+  -webkit-box-shadow: 2px 2px 8px 3px #333;
+  box-shadow:         2px 2px 8px 3px #333;
+}
+.btn-primary {
+  background-color: #FBA834;
 }
 /* Carousel
 -------------------------------------------------- */
