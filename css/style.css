@@ -13,15 +13,12 @@ body {
   color: #FFFFFF;
 }
 .jumbotron h1{
-  color: #FBA834;
+  color: #FCE850;
 }
 .jumbotron img {
   -moz-box-shadow:    2px 2px 8px 3px #333;
   -webkit-box-shadow: 2px 2px 8px 3px #333;
   box-shadow:         2px 2px 8px 3px #333;
-}
-.btn-primary {
-  background-color: #FBA834;
 }
 .text-muted {
   color: #333;
@@ -72,4 +69,10 @@ body {
   background-color:#387ADF;
   color: #fff;
   border-radius: 10px 0px 0px 10px;
+}
+.yellow-icon {
+  color: #FCE850;
+}
+.yellow-icon:hover {
+  color: #F9E3A3;
 }
